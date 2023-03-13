@@ -39,3 +39,8 @@ function crearTablero(){
 
   //----------------- lecture_03 -----------------//
 
+function voltearCarta(){
+  var cartasId = this.getAttribute("data-id");
+  cartasEscogidas.push(cardAdj[cartasId].name)
+}
+);
