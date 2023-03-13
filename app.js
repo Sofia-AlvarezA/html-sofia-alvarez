@@ -37,10 +37,11 @@ function crearTablero(){
   );
 
 
-  //----------------- lecture_03 -----------------//
+  //----------------- lecture_04 -----------------//
 
 function voltearCarta(){
   var cartasId = this.getAttribute("data-id");
-  cartasEscogidas.push(cardAdj[cartasId].name)
-}
+  cartasEscogidas.push(cardAdj[cartasId].name);
+  cartasEscogidasId.push(cardId);
+  this.setAttribute("")
 );
