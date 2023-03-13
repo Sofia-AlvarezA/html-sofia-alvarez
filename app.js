@@ -14,3 +14,28 @@ const cardAdj = [
   var cartasescogidasid = [];
   var catasGanadas = [];
   
+
+
+//----------------- lecture_03 -----------------//
+
+
+function crearTablero(){
+
+  for (let i= 0; 1 < cardAdj.lenght; i++) {
+    var carta= document.createElement ("img");
+  
+    carta.setAttribute("src", "images/reverso.png");
+  
+    carta.setAttribute("data-id", 1);
+  
+    carta.addEventListener("click", voltearCarta);
+  
+    cuadricula.appendChild (carta);
+    }
+  }
+  
+  );
+
+
+  //----------------- lecture_03 -----------------//
+
